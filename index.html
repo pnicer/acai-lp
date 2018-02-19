@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acaisoft</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="assets/images/logo.svg" class="top-bar__logo">
+                    <span class="top-bar__menu hidden-xs hidden-sm" id="links">
+					<span class="top-bar__menu--item">
+						<a href="#welcome" class="linkInMenuBar top-bar__menu--active">About</a>
+					</span>
+					<span class="top-bar__menu--item">
+						<a href="#services" class="linkInMenuBar">Services</a>
+					</span>
+					<span class="top-bar__menu--item">
+						<a href="#tech" class="linkInMenuBar">Technologies</a>
+					</span>
+					<span class="top-bar__menu--item">
+						<a href="#work" class="linkInMenuBar">How we work</a>
+					</span>
+                        <!--<span class="top-bar__menu&#45;&#45;item">-->
+                        <!--<a href="#career" class="linkInMenuBar">Career</a>-->
+                        <!--</span>-->
+                        <!--<span class="top-bar__menu&#45;&#45;item">-->
+                        <!--<a href="#blog" class="linkInMenuBar">Blog</a>-->
+                        <!--</span>-->
+					<span class="top-bar__menu--item">
+						<a href="#contact" class="linkInMenuBar">Contact</a>
+					</span>
+				</span>
+                    <i class="top-bar--btn hidden-lg hidden-md glyphicon glyphicon-align-justify"
+                       onclick="toggleMenu()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome" id="welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-6 col-sm-push-7 col-md-push-6">
+                    <img src="assets/images/main.png" class="img-responsive center-block">
+                </div>
+                <div class="col-sm-7 col-md-6 col-sm-pull-5 col-md-pull-6 welcome__text-box">
+                    <p class="welcome__text-box--title">
+                        WEB APPLICATIONS,<br/> CUSTOM MADE SOLUTIONS, <br/> MOBILE ... AND MORE
+                    </p>
+                    <p class="welcome__text-box--text">
+                        You name it. We provide it. <br/>
+                        We are not affraid of demanding challenges. <br/>
+                        Try us and see.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about" id="about">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-5 col-sm-push-7">
+                <img src="assets/images/hello.png" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-7 col-sm-pull-5 about__text-box">
+                <p class="about__text-box--title">
+                    Hello, we are <strong>Acaisoft.</strong>
+                </p>
+                <p class="about__text-box--text">
+                    We are modern app development company. We specialize in full stack design,
+                    development and deployment of cloud-based applications as well as large
+                    scalable enterprise products. We are the preferred collaboration partner for
+                    several cutting edge Silicon Valley startups as well as established technology
+                    giants.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services" id="services">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-12 services__title">
+                Experience and <strong>services.</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 services__box" data-aos="flip-up" data-aos-delay="200">
+                <img src="assets/images/monitor.png">
+                <p class="services__box--title">Web applications</p>
+                <p class="services__box--text">We build cloud-based applications for WEB platforms</p>
+            </div>
+            <div class="col-sm-4 services__box" data-aos="flip-up" data-aos-delay="200">
+                <img src="assets/images/mobile.png">
+                <p class="services__box--title">Mobile</p>
+                <p class="services__box--text">We create mobile applications for Android and iOS and we build native
+                    apps using React Native.</p>
+            </div>
+            <div class="col-sm-4 services__box" data-aos="flip-up" data-aos-delay="200">
+                <img src="assets/images/vrar.png">
+                <p class="services__box--title">VA / AR</p>
+                <p class="services__box--text">Experience a reality where the world around you expands. Be part of it
+                    and we support you to achieve that.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 services__box" data-aos="flip-up" data-aos-delay="400">
+                <img src="assets/images/design.png">
+                <p class="services__box--title">Design</p>
+                <p class="services__box--text"> If you don't know what your app/system should look like. Let us shape
+                    that for you.</p>
+            </div>
+            <div class="col-sm-4 services__box" data-aos="flip-up" data-aos-delay="400">
+                <img src="assets/images/architecture.png">
+                <p class="services__box--title">Architecture</p>
+                <p class="services__box--text">Let us help you with providing positive solutions for your needs.</p>
+            </div>
+            <div class="col-sm-4 services__box" data-aos="flip-up" data-aos-delay="400">
+                <img src="assets/images/custom.png">
+                <p class="services__box--title">Custom made solutions</p>
+                <p class="services__box--text">We help you to design and take care of implementation for your dedicated
+                    system.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tech" id="tech">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-12 tech__title">
+                Technologies <strong>we're good at.</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/python.png">
+                    <p class="tech__tile--title">Python</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/java.png">
+                    <p class="tech__tile--title">Java</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/cplus.png">
+                    <p class="tech__tile--title">C++</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/go.png">
+                    <p class="tech__tile--title">Go</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/php.png">
+                    <p class="tech__tile--title">PHP</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/csharp.png">
+                    <p class="tech__tile--title">C#</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/css.png">
+                    <p class="tech__tile--title">CSS</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/html.png">
+                    <p class="tech__tile--title">HTML</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/js.png">
+                    <p class="tech__tile--title">Javascript</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/angular.png">
+                    <p class="tech__tile--title">Angular</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/ts.png">
+                    <p class="tech__tile--title">TypeScript</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/jquery.png">
+                    <p class="tech__tile--title">jQuery</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/react.png">
+                    <p class="tech__tile--title">ReactJS</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/kubernetes.png">
+                    <p class="tech__tile--title">Kubernetes</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/ams.png">
+                    <p class="tech__tile--title">AMS</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/gcs.png">
+                    <p class="tech__tile--title">GCS</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/aws.png">
+                    <p class="tech__tile--title">AWS</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/docker.png">
+                    <p class="tech__tile--title">Docker</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="tech__tile tech__small" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/mysql.png" class="tech__small__mysql">
+                    <p class="tech__tile--title tech__small--title">MySQL</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="tech__tile" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/postgres.png">
+                    <p class="tech__tile--title">PostgreSQL</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="tech__tile tech__small" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/mongo.png" class="tech__small__mongo">
+                    <p class="tech__tile--title tech__small--title">MongoDB</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="tech__tile tech__small" data-aos="flip-left" data-aos-delay="200">
+                    <img src="assets/images/tech/oracle.png" class="tech__small__oracle">
+                    <p class="tech__tile--title tech__small--title">Oracle</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="work" id="work">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-12 work__title">
+                How we <strong>work?</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="assets/images/howewework.png" class="img-responsive center-block">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="work__text-box--title">
+                    Planning & design
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 work__text-box">
+                <p class="work__text-box--text">
+                    In the area, we're focused on building designs, review buildings codes and regulations, coordinate
+                    schematics with business representatives and communicate design concepts with the Client.
+                </p>
+            </div>
+            <div class="col-sm-6 work__text-box">
+                <p class="work__text-box--text">
+                    <strong>Planning and design includes:</strong> problem framing and hypothesis development, research
+                    (contextually based using both quantitative and qualitative methods), analysis of research which
+                    provides insights, synthesis of insights into solution concepts, prototyping and testing, business
+                    planing to take the new concept to market and turn it into profit.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact" id="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-sm-12 contact__title">
+                Get in <strong>touch.</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 contact__offices">
+                Offices
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 contact__box">
+                <div class="contact__box--country">
+                    <i class="fa fa-map-marker"></i> United States
+                </div>
+                <div class="contact__box--address">
+                    111 North Market Street Suite 300<br/>
+                    San Jose, CA 95113
+                </div>
+            </div>
+            <div class="col-sm-3 contact__box">
+                <div class="contact__box--country">
+                    <i class="fa fa-map-marker"></i> Poland
+                </div>
+                <div class="contact__box--address">
+                    Królowej Marysieńki 70<br/>
+                    02-954 Warsaw
+                </div>
+            </div>
+            <div class="col-sm-3 contact__box">
+                <div class="contact__box--country hidden-xs">
+
+                </div>
+                <div class="contact__box--address">
+                    Palestyńska 2a<br/>
+                    03-321 Warsaw
+                </div>
+            </div>
+            <div class="col-sm-3 contact__box">
+                <div class="contact__box--country hidden-xs">
+
+                </div>
+                <div class="contact__box--address">
+                    Świętego Rocha 5, lok. 102 G<br/>
+                    15-706 Białystok
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-sm-push-9 contact__box">
+                <div class="contact__box--country">
+                    <i class="fa fa-phone"></i> Contact
+                </div>
+                <div class="contact__box--address">
+                    +48 517 935 609<br/>
+                    contact@acaisoft.com
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="assets/images/map.png" class="img-responsive center-block">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 footer__section">
+                <div class="footer__section--title">
+                    Explore
+                </div>
+                <div class="footer__section--text">
+                    About
+                </div>
+                <div class="footer__section--text">
+                    Services
+                </div>
+                <div class="footer__section--text">
+                    Technologies
+                </div>
+                <div class="footer__section--text">
+                    How we work
+                </div>
+                <div class="footer__section--text">
+                    Contact
+                </div>
+            </div>
+            <div class="col-sm-3 footer__section">
+                <div class="footer__section--title">
+                    Head office
+                </div>
+                <div class="footer__section--text">
+                    Królowej Marysieńki 70
+                </div>
+                <div class="footer__section--text">
+                    02-954 Warsaw, Poland
+                </div>
+            </div>
+            <div class="col-sm-3 footer__section">
+                <div class="footer__section--title">
+                    Contact
+                </div>
+                <div class="footer__section--text">
+                    +48 517 935 609
+                </div>
+                <div class="footer__section--text">
+                    contact@acaisoft.com
+                </div>
+            </div>
+            <div class="col-sm-3 footer__section">
+                <div class="footer__section--title">
+                    Follow us
+                </div>
+                <div class="footer__section--text">
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="./scripts/jquery.js"></script>
+<script src="./scripts/scripts.js"></script>
+</body>
+</html>
