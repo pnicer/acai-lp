@@ -244,8 +244,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/f4769f9bdb7466be65088239c12046d1.eot);
-  src: url(/f4769f9bdb7466be65088239c12046d1.eot?#iefix) format("embedded-opentype"), url(/448c34a56d699c29117adc64c43affeb.woff2) format("woff2"), url(/fa2772327f55d8198301fdb8bcfc8158.woff) format("woff"), url(/e18bbf611f2a2e43afc071aa2f4e1512.ttf) format("truetype"), url(/f0ea477ef046ba5fef9249ec3172903e.svg#glyphicons_halflingsregular) format("svg"); }
+  src: url(./f4769f9bdb7466be65088239c12046d1.eot);
+  src: url(./f4769f9bdb7466be65088239c12046d1.eot?#iefix) format("embedded-opentype"), url(./448c34a56d699c29117adc64c43affeb.woff2) format("woff2"), url(./fa2772327f55d8198301fdb8bcfc8158.woff) format("woff"), url(./e18bbf611f2a2e43afc071aa2f4e1512.ttf) format("truetype"), url(./f0ea477ef046ba5fef9249ec3172903e.svg#glyphicons_halflingsregular) format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -9066,7 +9066,7 @@ html, body {
   font-family: 'Open Sans', sans-serif; }
 
 .main {
-  background: url(/34e1cfe03b0fae6827093e0e25f26c6f.png);
+  background: url(./34e1cfe03b0fae6827093e0e25f26c6f.png);
   background-size: cover;
   display: block;
   padding-top: 200px;
@@ -9341,5 +9341,7 @@ html, body {
       font-size: 16px;
       line-height: 32px;
       font-weight: 300; }
+      .footer__section--text a {
+        color: #ccc; }
 
 /*# sourceMappingURL=style.css.map*/
